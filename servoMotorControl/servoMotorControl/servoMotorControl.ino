@@ -19,7 +19,7 @@ void loop() {
   sensorVal = analogRead(sensorPin);
   Serial.println(sensorVal);
   
-  /*
+  ///*
   for (pos = 0; pos <= 180; pos += 1) {
     myservo.write(pos);
     delay(15);
@@ -37,7 +37,7 @@ void loop() {
     myservo.write(pos2);
     delay(30);
   }
-  */
+  //*/
   
   delay(100); // Delay sensor read, will mess with servo delay?
 }
